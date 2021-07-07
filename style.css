@@ -3,10 +3,10 @@ html, body {
     padding: 0;
   }
   canvas{
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 100px;
-    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 7px solid rgb(9, 31, 151);
   }
   
   
