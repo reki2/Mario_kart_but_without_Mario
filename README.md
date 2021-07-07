@@ -1,2 +1,2 @@
-# Mario_kart_but_without_Mario
-is a multplayer game
+# MovimientoDePelotaAsincorono
+Boilerplate para movimiento de la pelota de forma asíncrona
