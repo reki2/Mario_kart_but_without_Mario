@@ -12,9 +12,10 @@ this.title.position(displayWidth/12,30)
 this.input.position(displayWidth/12,170)
 this.button.position(displayWidth/12.6,displayHeight/6)
 this.button.mousePressed(()=> {
- this.imput.hide()
+ this.input.hide()
  this.button.hide()
-player.name = this.imput.value();
+player.name = this.input.value();
+player.update();
 this.hello.html('hello' + player.name);
 this.hello.position(600,200);
 });

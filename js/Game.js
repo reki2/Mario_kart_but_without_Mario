@@ -5,16 +5,28 @@ class Game {
     
     }
     getState(){
-
-
+   var gameStateRef = database.ref('gameState');
+   gameStateRef.on('value', function(data){
+       gameState: data.val(); 
+     })
 
 
 
     }
-    updateState(){
+    updateState(state){
+   database.ref('/').update({
+       gameState: state
+   })
 
+   
 
-
-        
+    }
+    start(){
+    if(gameState === 0){
+    player = new Player();
+   form = new Form();
+ console.log('sonic');
+ form.display();
+ }
     }
 }
