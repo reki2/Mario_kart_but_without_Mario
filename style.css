@@ -1,12 +1,55 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html, body
+ { margin: 0; padding: 0; } 
+ canvas{ 
+ margin-left: 10px; 
+ margin-right: 10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: 2px solid rgb(41, 4, 128);
   }
-  canvas{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    border: 7px solid rgb(9, 31, 151);
+ body {
+ font-family: sans-serif;
+ font-size: 16px;
+ line-height: 1.5;
+ background: rgb(148, 148, 148); 
+ }
+ h1 {
+   font-size: 2em;
+   margin-bottom: .5em;
+   }
+   h2 {
+    font-size: 3em;
+    margin-bottom: .5em;
+    font-family: "Blippo";
+    text-align: center;
+    color: rgb(165, 165, 165); 
+     } 
+     h3 {
+     font-size: 4em;
+     margin-bottom: .5em;
+    }
+input{ 
+font-family:"Rockwell";
+font-size:12pt;
+width: 300px;
+color:#004370;
+padding: 5px 7px 5px 7px;
+border:3px solid #05e63d;
+background:rgb(195, 204, 255);
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+ border-radius: 15px;
+}
+
+input:focus {
+outline: none !important;
+border-color: #41106e;
+box-shadow: 0 0 10px #19ffc5;
+    }
+   button{
+   font-family: "FangSong";
+   text-decoration:none;
+   font-weight: 600;
+   font-size: 20px;
+   color: #ff0000
   }
-  
-  

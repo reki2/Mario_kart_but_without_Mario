@@ -4,4 +4,17 @@ class Game {
     
     
     }
+    getState(){
+
+
+
+
+
+    }
+    updateState(){
+
+
+
+        
+    }
 }
