@@ -19,7 +19,9 @@ playerCount: count
 update(){
 var playerIndex = 'players/player' +this.index;
 database.ref(playerIndex).set({name: this.name})
-
-
 }
+static getPlayerInfo(){
+ var playerinfoRef = database.ref('players');
+ playerinfoRef.on('value', (data)=>{ allplayers = data.val(); })
+ }
 }    
