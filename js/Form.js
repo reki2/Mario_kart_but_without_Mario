@@ -14,7 +14,7 @@ this.button.position(displayWidth/12.6,displayHeight/6)
 this.button.mousePressed(()=> {
  this.input.hide();
  this.button.hide();
- playerCount += 1;
+ playerCount = playerCount + 1;
 player.index = playerCount;
 player.updateCount(playerCount);
 console.log(playerCount);

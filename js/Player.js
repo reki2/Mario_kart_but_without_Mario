@@ -9,7 +9,8 @@ class Player {
      playerCount_RO.on('value', function(data){
         playerCount = data.val();
      })
- }
+ console.log('soda')
+    }
 updateCount(count){
 database.ref('/').update({
 playerCount: count

@@ -25,7 +25,7 @@ class Game {
     if(gameState === 0){
     player = new Player();
    form = new Form();
- console.log('sonic');
+ //console.log('sonic');
  form.display();
  }
  //que no se vean desde el inicio
