@@ -6,6 +6,14 @@ this.button = createButton('play')
 this.hello = createElement('h3')
 }
 
+hide(){
+this.title.hide();
+this.input.hide();
+this.button.hide();
+this.hello.hide();
+
+}
+
 display(){
 this.title.html("Mario Kart but without Mario");
 this.title.position(displayWidth/12,30)
@@ -17,7 +25,7 @@ this.button.mousePressed(()=> {
  playerCount = playerCount + 1;
 player.index = playerCount;
 player.updateCount(playerCount);
-console.log(playerCount);
+//console.log(playerCount);
 player.name = this.input.value();
 player.update();
 this.hello.html('Hello ' + player.name);

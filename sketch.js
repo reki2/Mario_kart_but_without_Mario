@@ -33,10 +33,14 @@ function draw(){
     background("white");
    if(playerCount === 2){
     game.updateState(1)
+    clear();
+  game.play();
+  console.log('zanahoria')
    }
    if(gameState === 1){
     clear();
   game.play();
+  console.log('zanahoria')
    }
 
 
