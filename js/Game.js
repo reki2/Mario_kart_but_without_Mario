@@ -66,8 +66,10 @@ class Game {
         y =displayHeight - allplayers [plr].distance;
         cars[index - 1].x = x;
         cars[index - 1].y = y;
-        if(index === player.index)
-        { 
+        if(index === player.index){
+        stroke(10);
+        fill("skyblue");
+        ellipse(x,y,80,80);    
         camera.position.x = displayWidth/2;
         camera.position.y = cars[index-1].y; 
         }
@@ -79,4 +81,5 @@ class Game {
     player.update(); 
 }
     }
+
 }
